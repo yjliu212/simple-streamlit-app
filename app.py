@@ -1,7 +1,7 @@
 # app.py
 import streamlit as st
 
-st.title("🧠 Core Image Classifier (Demo)")
+st.title("Core Image Classifier (Demo)")
 st.write("Upload a core image to test CNN classification.")
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png", "jpeg"])
